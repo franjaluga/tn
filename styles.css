@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width : 720px) {
+
+    .panel-parent{
+        width: 100%;
+        display: flex;
+    } 
+
+    #logo{
+        height: 63px;
+        margin: 0 0 0 auto;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
+    h1{
+        padding-top: 25px;
+        font-size: 27px;
+        padding-left: 20px;
+    }
+
+    h2{
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 18px;      
+    }
+
+    #ban{
+        height: 342px;
+        margin: 0 0 0 auto;
+    }
+
+    h3{
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 20px; 
+        font-weight: 400; 
+    }
+
+    #saberMas{
+        margin: auto;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        background-color: #FBBB59;
+        border: none;
+        border-radius: 11px;
+        height: 54px;
+        width: 190px;
+
+    }
+
+    h4{
+        font-size: 24px;     
+    }
+
+    h5{
+        padding-top: 10px;
+        font-size: 30px;     
+    }
+
+    .bloque{
+        background-color: #2ECC71;
+        color: white;
+        width: 100%;
+        text-align: center;
+        height: 112px;
+        
+    }
+
+    .panel-child{
+        border: solid #2ECC71;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 25px;
+        width: 80%;
+        
+        margin-bottom: 25px;
+    }
+
+    .title-card{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .check{
+        width: 46px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    #owl{
+        width: 217px;
+        height: 286px;
+        margin-left: 50%;
+    }
+
+    #ear{
+        width: 217px;
+        height: 286px;
+        margin-left: 50%;
+        transform: scaleX(-1) rotate(-0.5rad);
+        margin-left: -90px;
+        margin-top: 10px;
+    }
+
+    .number{
+        font-size: 80px;
+        color:#2ECC71;
+    }
+
+    .faq-content{       
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+
+    .bloque-bank{
+        border: solid #2ECC71 1px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .bloque-bank-title{
+        padding-left: 10px;
+        font-weight: bolder;
+        color:#2ECC71;
+    }
+
+    .bloque-bank-subtitle{
+        padding-left: 10px;
+        font-weight: bolder;
+    }
+
+    #pen{
+        transform: scaleX(-1);
+        width: 126px;
+        margin-left: 60%;
+        margin-top: -20px;
+    }
+
+    #tib{
+        width: 200px;
+    }
+
+    #tig{
+        margin-left: 80px;
+        width: 150px;
+    }
+
+    footer{
+        display: flex;
+        margin-top: -20px;
+        background-color: #6E2032;
+        height: 500px;
+    }
+
+    .footer-content{
+        color:white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #zeb{
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    #lb{
+        margin-left: 150px;
+        margin-top: 25px;
+        width: 60px;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+@media (min-width : 720px) {
+    body{
+        background-color: beige;
+    }
+
+    .panel-parent{
+        background-color: white;
+        width: 600px;
+        display: flex;
+        margin: auto;
+    } 
+
+    #logo{
+        height: 63px;
+        margin: 0 0 0 auto;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
+    h1{
+        padding-top: 25px;
+        font-size: 27px;
+        padding-left: 20px;
+    }
+
+    h2{
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 18px;      
+    }
+
+    #ban{
+        height: 500px;
+        margin: 0 0 0 auto;
+        margin-top: -150px;
+    }
+
+    #includes{
+        margin-top: -50px;
+    }
+
+    h3{
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 20px; 
+        font-weight: 400; 
+    }
+
+    #saberMas{
+        margin: auto;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        background-color: #FBBB59;
+        border: none;
+        border-radius: 11px;
+        height: 54px;
+        width: 190px;
+
+    }
+
+    h4{
+        font-size: 24px;     
+    }
+
+    h5{
+        padding-top: 10px;
+        font-size: 30px;     
+    }
+
+    .bloque{
+        background-color: #2ECC71;
+        color: white;
+        width: 100%;
+        text-align: center;
+        height: 112px;
+        
+    }
+
+    .panel-child{
+        border: solid #2ECC71;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 25px;
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    .title-card{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .check{
+        width: 46px;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    #owl{
+        width: 217px;
+        height: 286px;
+        margin-left: 50%;
+    }
+
+    #ear{
+        width: 217px;
+        height: 286px;
+        margin-left: 50%;
+        transform: scaleX(-1);
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .number{
+        font-size: 80px;
+        color:#2ECC71;
+    }
+
+    .faq-content{       
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+
+    .bloque-bank{
+        border: solid #2ECC71 1px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .bloque-bank-title{
+        padding-left: 10px;
+        font-weight: bolder;
+        color:#2ECC71;
+    }
+
+    .bloque-bank-subtitle{
+        padding-left: 10px;
+        font-weight: bolder;
+    }
+
+    #pen{
+        transform: scaleX(-1);
+        width: 126px;
+        margin-left: 60%;
+        margin-top: -20px;
+    }
+
+    #tib{
+        width: 200px;
+    }
+
+    #tig{
+        margin-left: 150px;
+        width: 150px;
+    }
+
+    footer{
+        display: flex;
+        margin-top: -20px;
+        background-color: #6E2032;
+        height: 500px;
+    }
+
+    .footer-content{
+        color:white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #zeb{
+        width: 100px;
+        margin-left: 350px;
+        transform: scaleX(-1);
+    }
+
+    .mi-footer{
+        display: flex;
+    }
+
+    #lb{
+        width: 60px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+
+}
